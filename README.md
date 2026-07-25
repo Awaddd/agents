@@ -11,7 +11,7 @@ Place the repository in your coding agent's standard skills directory. It uses t
 `prompt` is independent. The remaining skills form a durable, acceptance-criteria-driven workflow:
 
 ```text
-spec → map → imp (runs tdd) → check → ok
+spec → map → imp (runs tdd) → ok (runs check)
 ```
 
 - `spec` turns an idea into scoped requirements and acceptance criteria.
